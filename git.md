@@ -13,6 +13,21 @@
 1. 프로젝트 폴더에서 Git bash here 실행
 
 2. local 에 계정 정보 저장하기
-* git config --global user.name hanbeyol
+* git config --global user.name hanbyeol00
 * git config --global user.email gksquf6670@gmail.com
-* PC 를 교체했거나, 윈도우를 재설치했거나, 최초로 github 와 연동할때만 실행
+* PC 를 교체했거나, 윈도우를 재설치했거나, 최초로 github 와 연동할때 만 실행
+
+3. local repository 생성하기
+* git init 
+
+4. 원격(remote, origin) repository 정보 저장하기
+* 새로운 repository를 생성했을 때
+* git remote add origin https://github.com/hanbyeol00/JavaScript_2022_10.git
+* origin 이라는 이름으로 github 의 원격 repository 주소를 등록하는 절차
+
+5. 프로젝트를 압축하여 local repository(.git 폴더)에 저장하기
+* git add .
+* git commit -m "Comment" // "는 메모추가""
+
+6. 업로드하기
+* git push -u origin master
